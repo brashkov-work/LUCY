@@ -8,51 +8,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 Everybody has his health problems, no matter if they are small or big, they are problems. What we want to do is to give something beneficials to everyone, to help every body that is struggling with any kind of sickness. That’s why we created Lucy, your medical assistant, but not like just a live chat, It’s much more. It’s what you needed
 
-### Prerequisites
+## Phases
 
-What things you need to install the software and how to install them
+Explain how what is goind to be the process of developemnt
 
-```
-Give examples
-```
+### Phase 1 - MVP
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+* Reminder.
+* Illness History.
+* E-info for all of the patienc diagnoses, alergies and etc.
+* Medical ID.
 
 ```
-Give the example
+1 to 2 weeks
 ```
 
-And repeat
+### Phase 2 - Adding Business Model 
+
+* Talikng with other healtchare app for integration oppurtunities
+* Analytics data represented in a readable way
+* Reports from labs
+* Second Opionions
 
 ```
-until finished
+up to a month
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 ## Authors
 
 * **Boris Rashkov** - *Full Stack Developer - PM* - [LinkdIn](https://www.linkedin.com/in/borisr-068519118/)
