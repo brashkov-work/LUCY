@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import UIKit
+
+class CreateAlertViewController: UIViewController {
+    
+    
+    override func viewDidLoad() {
+        print("hello")
+    }
+}

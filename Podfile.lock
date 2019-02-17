@@ -1,0 +1,42 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - ESTabBarController-swift (2.6.4)
+  - pop (1.0.12)
+  - SnapKit (4.0.1)
+  - SwiftyCam (3.0.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - ESTabBarController-swift
+  - pop (~> 1.0)
+  - SnapKit (~> 4.0.0)
+  - SwiftyCam
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ESTabBarController-swift
+    - pop
+    - SnapKit
+    - SwiftyCam
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  ESTabBarController-swift: 58cca4ab7de980657d99a02181c1ff310983e975
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftyCam: 67338308e3a5a3545c2aeee17e2c964eba4cf49f
+
+PODFILE CHECKSUM: 2b3f913f2d2d8de4df69d07f50cdc7ab4f81514b
+
+COCOAPODS: 1.5.3

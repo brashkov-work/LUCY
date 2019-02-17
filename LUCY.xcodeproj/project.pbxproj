@@ -7,21 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1B90005CD9FF67E4FD911E /* Pods_LUCY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A65E4BA4623641021785F69 /* Pods_LUCY.framework */; };
+		E7C7E59C221853D700EC8DB9 /* JournalSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E59B221853D700EC8DB9 /* JournalSectionViewController.swift */; };
+		E7C7E5A1221864B000EC8DB9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5A0221864B000EC8DB9 /* ProfileViewController.swift */; };
+		E7C7E5A32218660F00EC8DB9 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5A22218660F00EC8DB9 /* MoreViewController.swift */; };
+		E7C7E5A62218774500EC8DB9 /* CustomLucyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5A52218774500EC8DB9 /* CustomLucyNavigationController.swift */; };
+		E7C7E5BE22187D6400EC8DB9 /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5B722187D6400EC8DB9 /* ExampleBackgroundContentView.swift */; };
+		E7C7E5BF22187D6400EC8DB9 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5B822187D6400EC8DB9 /* ExampleBouncesContentView.swift */; };
+		E7C7E5C022187D6400EC8DB9 /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5B922187D6400EC8DB9 /* ExampleAnimateTipsContentView.swift */; };
+		E7C7E5C122187D6400EC8DB9 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5BA22187D6400EC8DB9 /* ExampleBasicContentView.swift */; };
+		E7C7E5C222187D6400EC8DB9 /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5BB22187D6400EC8DB9 /* ExampleHighlightableContentView.swift */; };
+		E7C7E5C322187D6400EC8DB9 /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5BC22187D6400EC8DB9 /* ExampleTipsContentView.swift */; };
+		E7C7E5C422187D6400EC8DB9 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5BD22187D6400EC8DB9 /* ExampleIrregularityContentView.swift */; };
+		E7C7E5CB22188C1A00EC8DB9 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5CA22188C1A00EC8DB9 /* CGFloat+Extension.swift */; };
+		E7C7E5CD22188C2B00EC8DB9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5CC22188C2B00EC8DB9 /* UIColor+Extension.swift */; };
+		E7C7E5D1221891B600EC8DB9 /* ReminderSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5CF221891B600EC8DB9 /* ReminderSectionHeaderView.swift */; };
+		E7C7E5D2221891B600EC8DB9 /* ReminderSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C7E5D0221891B600EC8DB9 /* ReminderSectionHeaderView.xib */; };
+		E7C7E5DA2218AC9000EC8DB9 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5D82218AC9000EC8DB9 /* ReminderCell.swift */; };
+		E7C7E5DB2218AC9000EC8DB9 /* ReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C7E5D92218AC9000EC8DB9 /* ReminderCell.xib */; };
+		E7C7E5DE2218B26700EC8DB9 /* PillCollectioViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5DC2218B26700EC8DB9 /* PillCollectioViewCell.swift */; };
+		E7C7E5DF2218B26700EC8DB9 /* PillCollectioViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C7E5DD2218B26700EC8DB9 /* PillCollectioViewCell.xib */; };
+		E7C7E5E42218B29400EC8DB9 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5E22218B29400EC8DB9 /* EventCollectionViewCell.swift */; };
+		E7C7E5E72218C35C00EC8DB9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5E62218C35C00EC8DB9 /* UIView+Extension.swift */; };
+		E7C7E5EB221914DB00EC8DB9 /* CreateAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E5EA221914DB00EC8DB9 /* CreateAlertViewController.swift */; };
 		E7C852E222175452002CBC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C852E122175452002CBC9C /* AppDelegate.swift */; };
-		E7C852E422175452002CBC9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C852E322175452002CBC9C /* ViewController.swift */; };
 		E7C852E722175452002CBC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C852E522175452002CBC9C /* Main.storyboard */; };
 		E7C852E922175454002CBC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C852E822175454002CBC9C /* Assets.xcassets */; };
 		E7C852EC22175454002CBC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C852EA22175454002CBC9C /* LaunchScreen.storyboard */; };
+		E7C852FD22182868002CBC9C /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C852FC22182868002CBC9C /* OCRViewController.swift */; };
+		E7C8530A221848A2002CBC9C /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C85309221848A2002CBC9C /* ImagePreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00BC0D67505252AD39551B53 /* Pods-LUCY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUCY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LUCY/Pods-LUCY.debug.xcconfig"; sourceTree = "<group>"; };
+		8A65E4BA4623641021785F69 /* Pods_LUCY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LUCY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9620FB88AC2EE179CCD6200 /* Pods-LUCY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LUCY.release.xcconfig"; path = "Pods/Target Support Files/Pods-LUCY/Pods-LUCY.release.xcconfig"; sourceTree = "<group>"; };
+		E7C7E59B221853D700EC8DB9 /* JournalSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSectionViewController.swift; sourceTree = "<group>"; };
+		E7C7E5A0221864B000EC8DB9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E7C7E5A22218660F00EC8DB9 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		E7C7E5A52218774500EC8DB9 /* CustomLucyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLucyNavigationController.swift; sourceTree = "<group>"; };
+		E7C7E5B722187D6400EC8DB9 /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		E7C7E5B822187D6400EC8DB9 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		E7C7E5B922187D6400EC8DB9 /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		E7C7E5BA22187D6400EC8DB9 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		E7C7E5BB22187D6400EC8DB9 /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		E7C7E5BC22187D6400EC8DB9 /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		E7C7E5BD22187D6400EC8DB9 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		E7C7E5CA22188C1A00EC8DB9 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		E7C7E5CC22188C2B00EC8DB9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E7C7E5CF221891B600EC8DB9 /* ReminderSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSectionHeaderView.swift; sourceTree = "<group>"; };
+		E7C7E5D0221891B600EC8DB9 /* ReminderSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderSectionHeaderView.xib; sourceTree = "<group>"; };
+		E7C7E5D82218AC9000EC8DB9 /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		E7C7E5D92218AC9000EC8DB9 /* ReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderCell.xib; sourceTree = "<group>"; };
+		E7C7E5DC2218B26700EC8DB9 /* PillCollectioViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillCollectioViewCell.swift; sourceTree = "<group>"; };
+		E7C7E5DD2218B26700EC8DB9 /* PillCollectioViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PillCollectioViewCell.xib; sourceTree = "<group>"; };
+		E7C7E5E22218B29400EC8DB9 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7C7E5E62218C35C00EC8DB9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E7C7E5EA221914DB00EC8DB9 /* CreateAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlertViewController.swift; sourceTree = "<group>"; };
 		E7C852DE22175452002CBC9C /* LUCY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUCY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C852E122175452002CBC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7C852E322175452002CBC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7C852E622175452002CBC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7C852E822175454002CBC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C852EB22175454002CBC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C852ED22175454002CBC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C852FC22182868002CBC9C /* OCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		E7C85309221848A2002CBC9C /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,113 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1B90005CD9FF67E4FD911E /* Pods_LUCY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F3557939635697BB93D2D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00BC0D67505252AD39551B53 /* Pods-LUCY.debug.xcconfig */,
+				A9620FB88AC2EE179CCD6200 /* Pods-LUCY.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC4D8056C3C245A21C82E98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A65E4BA4623641021785F69 /* Pods_LUCY.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7C7E59F2218647900EC8DB9 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E59B221853D700EC8DB9 /* JournalSectionViewController.swift */,
+				E7C7E5A0221864B000EC8DB9 /* ProfileViewController.swift */,
+				E7C7E5A22218660F00EC8DB9 /* MoreViewController.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		E7C7E5A42218771100EC8DB9 /* Newest */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5A52218774500EC8DB9 /* CustomLucyNavigationController.swift */,
+			);
+			path = Newest;
+			sourceTree = "<group>";
+		};
+		E7C7E5B622187D6400EC8DB9 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5B722187D6400EC8DB9 /* ExampleBackgroundContentView.swift */,
+				E7C7E5B822187D6400EC8DB9 /* ExampleBouncesContentView.swift */,
+				E7C7E5B922187D6400EC8DB9 /* ExampleAnimateTipsContentView.swift */,
+				E7C7E5BA22187D6400EC8DB9 /* ExampleBasicContentView.swift */,
+				E7C7E5BB22187D6400EC8DB9 /* ExampleHighlightableContentView.swift */,
+				E7C7E5BC22187D6400EC8DB9 /* ExampleTipsContentView.swift */,
+				E7C7E5BD22187D6400EC8DB9 /* ExampleIrregularityContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		E7C7E5C5221889B900EC8DB9 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5E02218B26F00EC8DB9 /* PillCollectionview */,
+				E7C7E5E12218B27C00EC8DB9 /* EventCollectionView */,
+				E7C7E5D82218AC9000EC8DB9 /* ReminderCell.swift */,
+				E7C7E5D92218AC9000EC8DB9 /* ReminderCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		E7C7E5CE22188E7800EC8DB9 /* CollectionViewHeaderItem */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5CF221891B600EC8DB9 /* ReminderSectionHeaderView.swift */,
+				E7C7E5D0221891B600EC8DB9 /* ReminderSectionHeaderView.xib */,
+			);
+			path = CollectionViewHeaderItem;
+			sourceTree = "<group>";
+		};
+		E7C7E5E02218B26F00EC8DB9 /* PillCollectionview */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5DC2218B26700EC8DB9 /* PillCollectioViewCell.swift */,
+				E7C7E5DD2218B26700EC8DB9 /* PillCollectioViewCell.xib */,
+			);
+			path = PillCollectionview;
+			sourceTree = "<group>";
+		};
+		E7C7E5E12218B27C00EC8DB9 /* EventCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5E22218B29400EC8DB9 /* EventCollectionViewCell.swift */,
+			);
+			path = EventCollectionView;
+			sourceTree = "<group>";
+		};
+		E7C7E5E82218D52600EC8DB9 /* Re-work */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Re-work";
+			sourceTree = "<group>";
+		};
 		E7C852D522175452002CBC9C = {
 			isa = PBXGroup;
 			children = (
 				E7C852E022175452002CBC9C /* LUCY */,
 				E7C852DF22175452002CBC9C /* Products */,
+				10F3557939635697BB93D2D4 /* Pods */,
+				AC4D8056C3C245A21C82E98C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +200,97 @@
 		E7C852E022175452002CBC9C /* LUCY */ = {
 			isa = PBXGroup;
 			children = (
-				E7C852E122175452002CBC9C /* AppDelegate.swift */,
-				E7C852E322175452002CBC9C /* ViewController.swift */,
-				E7C852E522175452002CBC9C /* Main.storyboard */,
-				E7C852E822175454002CBC9C /* Assets.xcassets */,
-				E7C852EA22175454002CBC9C /* LaunchScreen.storyboard */,
+				E7C7E5B622187D6400EC8DB9 /* Content */,
+				E7C852FB22181E4F002CBC9C /* API */,
+				E7C852FA22181E38002CBC9C /* Service */,
+				E7C852F922181E34002CBC9C /* Model */,
+				E7C852F822181E2E002CBC9C /* Helpers */,
+				E7C852F722181E2A002CBC9C /* Extensions */,
+				E7C852F622181E24002CBC9C /* Views */,
+				E7C852F522181E1C002CBC9C /* Controllers */,
+				E7C852F422181E0E002CBC9C /* Storyboards */,
+				E7C852F322181DF7002CBC9C /* Supporting FIles */,
 				E7C852ED22175454002CBC9C /* Info.plist */,
 			);
 			path = LUCY;
+			sourceTree = "<group>";
+		};
+		E7C852F322181DF7002CBC9C /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				E7C852E822175454002CBC9C /* Assets.xcassets */,
+				E7C852E122175452002CBC9C /* AppDelegate.swift */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		E7C852F422181E0E002CBC9C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E7C852E522175452002CBC9C /* Main.storyboard */,
+				E7C852EA22175454002CBC9C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E7C852F522181E1C002CBC9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5A42218771100EC8DB9 /* Newest */,
+				E7C7E59F2218647900EC8DB9 /* Sections */,
+				E7C852FC22182868002CBC9C /* OCRViewController.swift */,
+				E7C85309221848A2002CBC9C /* ImagePreviewViewController.swift */,
+				E7C7E5EA221914DB00EC8DB9 /* CreateAlertViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E7C852F622181E24002CBC9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5E82218D52600EC8DB9 /* Re-work */,
+				E7C7E5CE22188E7800EC8DB9 /* CollectionViewHeaderItem */,
+				E7C7E5C5221889B900EC8DB9 /* CollectionViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7C852F722181E2A002CBC9C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E7C7E5CA22188C1A00EC8DB9 /* CGFloat+Extension.swift */,
+				E7C7E5CC22188C2B00EC8DB9 /* UIColor+Extension.swift */,
+				E7C7E5E62218C35C00EC8DB9 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E7C852F822181E2E002CBC9C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E7C852F922181E34002CBC9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7C852FA22181E38002CBC9C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E7C852FB22181E4F002CBC9C /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7C852F022175454002CBC9C /* Build configuration list for PBXNativeTarget "LUCY" */;
 			buildPhases = (
+				0083AF340B949E116BC094B9 /* [CP] Check Pods Manifest.lock */,
 				E7C852DA22175452002CBC9C /* Sources */,
 				E7C852DB22175452002CBC9C /* Frameworks */,
 				E7C852DC22175452002CBC9C /* Resources */,
+				5AB8CC0605047060D3276F79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +354,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C852EC22175454002CBC9C /* LaunchScreen.storyboard in Resources */,
+				E7C7E5D2221891B600EC8DB9 /* ReminderSectionHeaderView.xib in Resources */,
+				E7C7E5DF2218B26700EC8DB9 /* PillCollectioViewCell.xib in Resources */,
+				E7C7E5DB2218AC9000EC8DB9 /* ReminderCell.xib in Resources */,
 				E7C852E922175454002CBC9C /* Assets.xcassets in Resources */,
 				E7C852E722175452002CBC9C /* Main.storyboard in Resources */,
 			);
@@ -130,13 +364,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0083AF340B949E116BC094B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LUCY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB8CC0605047060D3276F79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LUCY/Pods-LUCY-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyCam/SwiftyCam.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyCam.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LUCY/Pods-LUCY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7C852DA22175452002CBC9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7C852E422175452002CBC9C /* ViewController.swift in Sources */,
+				E7C7E5A32218660F00EC8DB9 /* MoreViewController.swift in Sources */,
+				E7C7E5E42218B29400EC8DB9 /* EventCollectionViewCell.swift in Sources */,
+				E7C7E5BF22187D6400EC8DB9 /* ExampleBouncesContentView.swift in Sources */,
+				E7C7E5C222187D6400EC8DB9 /* ExampleHighlightableContentView.swift in Sources */,
+				E7C7E5A1221864B000EC8DB9 /* ProfileViewController.swift in Sources */,
+				E7C7E5CD22188C2B00EC8DB9 /* UIColor+Extension.swift in Sources */,
 				E7C852E222175452002CBC9C /* AppDelegate.swift in Sources */,
+				E7C7E5C322187D6400EC8DB9 /* ExampleTipsContentView.swift in Sources */,
+				E7C7E5D1221891B600EC8DB9 /* ReminderSectionHeaderView.swift in Sources */,
+				E7C7E5C422187D6400EC8DB9 /* ExampleIrregularityContentView.swift in Sources */,
+				E7C7E5BE22187D6400EC8DB9 /* ExampleBackgroundContentView.swift in Sources */,
+				E7C7E5DE2218B26700EC8DB9 /* PillCollectioViewCell.swift in Sources */,
+				E7C7E5A62218774500EC8DB9 /* CustomLucyNavigationController.swift in Sources */,
+				E7C8530A221848A2002CBC9C /* ImagePreviewViewController.swift in Sources */,
+				E7C7E5CB22188C1A00EC8DB9 /* CGFloat+Extension.swift in Sources */,
+				E7C7E5EB221914DB00EC8DB9 /* CreateAlertViewController.swift in Sources */,
+				E7C7E5E72218C35C00EC8DB9 /* UIView+Extension.swift in Sources */,
+				E7C7E5DA2218AC9000EC8DB9 /* ReminderCell.swift in Sources */,
+				E7C7E5C022187D6400EC8DB9 /* ExampleAnimateTipsContentView.swift in Sources */,
+				E7C852FD22182868002CBC9C /* OCRViewController.swift in Sources */,
+				E7C7E5C122187D6400EC8DB9 /* ExampleBasicContentView.swift in Sources */,
+				E7C7E59C221853D700EC8DB9 /* JournalSectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +581,13 @@
 		};
 		E7C852F122175454002CBC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BC0D67505252AD39551B53 /* Pods-LUCY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5RA89RF7Z3;
 				INFOPLIST_FILE = LUCY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +601,13 @@
 		};
 		E7C852F222175454002CBC9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9620FB88AC2EE179CCD6200 /* Pods-LUCY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5RA89RF7Z3;
 				INFOPLIST_FILE = LUCY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
